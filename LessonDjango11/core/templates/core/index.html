@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; background-color: #f4f4f9; }
+        .container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        nav a { margin-right: 15px; text-decoration: none; color: #007bff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="{% url 'home' %}">Главная</a>
+            <a href="{% url 'about' %}">О проекте</a>
+        </nav>
+        <h1>Практическая работа 22!</h1>
+        <p>Зайти на http://127.0.0.1:8000/filters/.</p>
+    </div>
+</body>
+</html>
